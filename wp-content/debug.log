@@ -1,0 +1,36 @@
+[09-Jun-2023 12:30:30 UTC] PHP Warning:  Undefined array key "name" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 7
+[09-Jun-2023 12:30:30 UTC] PHP Warning:  Undefined array key "phone" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 8
+[09-Jun-2023 12:30:30 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:30:30 UTC] PHP Warning:  Attempt to read property "prefix" on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:30:30 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:30:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:19
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#4 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:32:35 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:32:35 UTC] PHP Warning:  Attempt to read property "prefix" on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:32:35 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:32:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:19
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#4 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:32:42 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:32:42 UTC] PHP Warning:  Attempt to read property "prefix" on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 12
+[09-Jun-2023 12:32:42 UTC] PHP Warning:  Undefined variable $wpdb in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:32:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on null in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:19
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#4 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
+[09-Jun-2023 12:33:09 UTC] WordPress database error Unknown column 'answer' in 'field list' for query INSERT INTO `wp_orders` (`name`, `phone`, `answer`) VALUES ('alexey', '899999', '\"1000-3000 \\u0448\\u0442\"') made by do_action('admin_post_order_form_handler'), WP_Hook->do_action, WP_Hook->apply_filters, order_form_handler

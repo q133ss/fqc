@@ -9,9 +9,9 @@
         ГАБАРИТЫ ГРУЗА
       </div>
       <div class="modal__box-answers">
-        <div class="modal__box-answer">до 3 кубов</div>
-        <div class="modal__box-answer">от 3 до 7 кубов</div>
-        <div class="modal__box-answer">от 7 кубов и более</div>
+        <div class="modal__box-answer" data-question="Габариты груза">до 3 кубов</div>
+        <div class="modal__box-answer" data-question="Габариты груза">от 3 до 7 кубов</div>
+        <div class="modal__box-answer" data-question="Габариты груза">от 7 кубов и более</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
     </div>
@@ -27,9 +27,9 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Южные Ворота</div>
-        <div class="modal__box-answer">ТЯК Москва</div>
-        <div class="modal__box-answer">Иное место в пределах МКАД</div>
+        <div class="modal__box-answer" data-question="Откуда забираем">Южные Ворота</div>
+        <div class="modal__box-answer" data-question="Откуда забираем">ТЯК Москва</div>
+        <div class="modal__box-answer" data-question="Откуда забираем">Иное место в пределах МКАД</div>
       </div>
     </div>
 
@@ -44,10 +44,10 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">500 шт</div>
-        <div class="modal__box-answer">500-1000 шт</div>
-        <div class="modal__box-answer">1000-3000 шт</div>
-        <div class="modal__box-answer">3000 и более</div>
+        <div class="modal__box-answer" data-question="Колличество товара к упаковке">500 шт</div>
+        <div class="modal__box-answer" data-question="Колличество товара к упаковке">500-1000 шт</div>
+        <div class="modal__box-answer" data-question="Колличество товара к упаковке">1000-3000 шт</div>
+        <div class="modal__box-answer" data-question="Колличество товара к упаковке">3000 и более</div>
       </div>
     </div>
 
@@ -62,12 +62,12 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">БОПП пакет</div>
-        <div class="modal__box-answer">Пузырчатая плёнка</div>
-        <div class="modal__box-answer">Крафтовая бумага</div>
-        <div class="modal__box-answer">ЗипЛок</div>
-        <div class="modal__box-answer">Отдельный короб</div>
-        <div class="modal__box-answer">Другое</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">БОПП пакет</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Пузырчатая плёнка</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Крафтовая бумага</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">ЗипЛок</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Отдельный короб</div>
+        <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Другое</div>
       </div>
     </div>
 
@@ -82,9 +82,9 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">1 этикетка</div>
-        <div class="modal__box-answer">2 этикетки</div>
-        <div class="modal__box-answer">3 этикетки</div>
+        <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">1 этикетка</div>
+        <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">2 этикетки</div>
+        <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">3 этикетки</div>
       </div>
     </div>
 
@@ -99,10 +99,10 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">В коробе 60х40х40</div>
-        <div class="modal__box-answer">В другом коробе</div>
-        <div class="modal__box-answer">Паллета + короб 60х40х40 12шт</div>
-        <div class="modal__box-answer">Палетта + Другой короб</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">В коробе 60х40х40</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">В другом коробе</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">Паллета + короб 60х40х40 12шт</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">Палетта + Другой короб</div>
       </div>
     </div>
 
@@ -117,8 +117,8 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Вы сами</div>
-        <div class="modal__box-answer">Мы</div>
+        <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Вы сами</div>
+        <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Мы</div>
       </div>
     </div>
 
@@ -133,8 +133,8 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Да</div>
-        <div class="modal__box-answer">Нет</div>
+        <div class="modal__box-answer" data-question="Требуется погрузка">Да</div>
+        <div class="modal__box-answer" data-question="Требуется погрузка">Нет</div>
       </div>
     </div>
 
@@ -149,9 +149,9 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Паллета</div>
-        <div class="modal__box-answer">Короба 60х40х40</div>
-        <div class="modal__box-answer">Короба менее 60х40х40</div>
+        <div class="modal__box-answer" data-question="Что поставляем">Паллета</div>
+        <div class="modal__box-answer" data-question="Что поставляем">Короба 60х40х40</div>
+        <div class="modal__box-answer" data-question="Что поставляем">Короба менее 60х40х40</div>
       </div>
     </div>
 
@@ -166,8 +166,8 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Паллета</div>
-        <div class="modal__box-answer">Короб</div>
+        <div class="modal__box-answer" data-question="Что грузим">Паллета</div>
+        <div class="modal__box-answer" data-question="Что грузим">Короб</div>
       </div>
     </div>
 
@@ -182,9 +182,9 @@
       </div>
 
       <div class="modal__box-answers">
-        <div class="modal__box-answer">Электросталь</div>
-        <div class="modal__box-answer">Коледино</div>
-        <div class="modal__box-answer">СЦ Пушкино</div>
+        <div class="modal__box-answer" data-question="Куда доставляем">Электросталь</div>
+        <div class="modal__box-answer" data-question="Куда доставляем">Коледино</div>
+        <div class="modal__box-answer" data-question="Куда доставляем">СЦ Пушкино</div>
       </div>
     </div>
 
@@ -192,9 +192,10 @@
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
       </p>
-      <form class="modal__box-form">
-        <input type="text" class="modal__box-input" placeholder="Ваше имя">
-        <input type="text" class="modal__box-input" placeholder="Номер телефона">
+      <form class="modal__box-form" method="POST" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
+        <input type="hidden" name="action" value="order_form_handler">
+        <input type="text" class="modal__box-input" name="name" placeholder="Ваше имя">
+        <input type="text" class="modal__box-input" name="phone" placeholder="Номер телефона">
         <button class="modal__box-submit" type="submit">Отправить</button>
       </form>
       <p class="price__text"> Можете связаться с нами по <a class="price__link" href="#">
