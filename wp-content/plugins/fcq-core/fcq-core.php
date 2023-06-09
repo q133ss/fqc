@@ -5,6 +5,14 @@
  */
 
 require_once plugin_dir_path( __FILE__ ).'class.ordersTable.php';
+require_once plugin_dir_path( __FILE__ ).'class.init.php';
+
+// Регистрируем хук на активацию плагина
+register_activation_hook( __FILE__, 'my_plugin_activation' );
+
+function my_plugin_activation() {
+    Init::createTable();
+}
 
 add_action( 'admin_menu', 'true_top_menu_page', 25 );
  
