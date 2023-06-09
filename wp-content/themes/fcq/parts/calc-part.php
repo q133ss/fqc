@@ -6,12 +6,12 @@
         <div class="modal__box-btn">Далее</div>
       </div>
       <div class="modal__box-question">
-        ГАБАРИТЫ ГРУЗА111
+        ГАБАРИТЫ ГРУЗА
       </div>
       <div class="modal__box-answers">
         <div class="modal__box-answer">до 3 кубов</div>
-        <div class="modal__box-answer active">до 3 кубов</div>
-        <div class="modal__box-answer">до 3 кубов</div>
+        <div class="modal__box-answer">от 3 до 7 кубов</div>
+        <div class="modal__box-answer">от 7 кубов и более</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
     </div>
@@ -19,10 +19,173 @@
     <div class="modal__box">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
-        <div class="modal__box-num">2 из 7</div>
+        <div class="modal__box-num">3 из 7</div>
         <div class="modal__box-btn">Далее</div>
       </div>
-      2223123
+      <div class="modal__box-question">
+        Откуда забираем
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Южные Ворота</div>
+        <div class="modal__box-answer">ТЯК Москва</div>
+        <div class="modal__box-answer">Иное место в пределах МКАД</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">4 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Количество товара к упаковке
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">500 шт</div>
+        <div class="modal__box-answer">500-1000 шт</div>
+        <div class="modal__box-answer">1000-3000 шт</div>
+        <div class="modal__box-answer">3000 и более</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">5 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Выберите материалы для упаковки
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">БОПП пакет</div>
+        <div class="modal__box-answer">Пузырчатая плёнка</div>
+        <div class="modal__box-answer">Крафтовая бумага</div>
+        <div class="modal__box-answer">ЗипЛок</div>
+        <div class="modal__box-answer">Отдельный короб</div>
+        <div class="modal__box-answer">Другое</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">6 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Количество этикеток при маркировке
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">1 этикетка</div>
+        <div class="modal__box-answer">2 этикетки</div>
+        <div class="modal__box-answer">3 этикетки</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">7 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Как доставляем товар
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">В коробе 60х40х40</div>
+        <div class="modal__box-answer">В другом коробе</div>
+        <div class="modal__box-answer">Паллета + короб 60х40х40 12шт</div>
+        <div class="modal__box-answer">Палетта + Другой короб</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">8 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Кто создаёт поставку в Вашем ЛК
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Вы сами</div>
+        <div class="modal__box-answer">Мы</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">9 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Требуется погрузка?
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Да</div>
+        <div class="modal__box-answer">Нет</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">10 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Что поставляем?
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Паллета</div>
+        <div class="modal__box-answer">Короба 60х40х40</div>
+        <div class="modal__box-answer">Короба менее 60х40х40</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">10 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Что грузим
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Паллета</div>
+        <div class="modal__box-answer">Короб</div>
+      </div>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">11 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Куда доставляем?
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer">Электросталь</div>
+        <div class="modal__box-answer">Коледино</div>
+        <div class="modal__box-answer">СЦ Пушкино</div>
+      </div>
     </div>
 
     <div class="modal__box">
