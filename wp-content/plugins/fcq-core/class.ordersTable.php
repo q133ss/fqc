@@ -9,9 +9,11 @@ class My_Custom_Table extends WP_List_Table {
     function get_columns(){
         $columns = array(
             'cb'         => '<input type="checkbox" />',
-            'title'      => 'Title',
-            'author'     => 'Author',
-            'categories' => 'Categories'
+            'name'      => 'Имя',
+            'phone'     => 'Телефон',
+            'answers' => 'Ответы',
+            'sum' => 'Сумма',
+            'created_at' => 'Дата и время',
         );
         return $columns;
     }
@@ -20,15 +22,8 @@ class My_Custom_Table extends WP_List_Table {
     function prepare_items() {
         global $wpdb;
  
-        $query = "SELECT post_title, post_author, GROUP_CONCAT(terms.name SEPARATOR ', ') AS categories FROM $wpdb->posts
-                  LEFT JOIN $wpdb->term_relationships ON $wpdb->posts.ID = $wpdb->term_relationships.object_id
-                  LEFT JOIN $wpdb->term_taxonomy ON ($wpdb->term_relationships.term_taxonomy_id = $wpdb->term_taxonomy.term_taxonomy_id)
-                  LEFT JOIN $wpdb->terms ON ($wpdb->term_taxonomy.term_id = $wpdb->terms.term_id)";
- 
-        $query .= " WHERE $wpdb->posts.post_type = 'post'
-                    AND $wpdb->posts.post_status = 'publish'";
- 
-        $query .= " GROUP BY $wpdb->posts.ID";
+        $ordersTable = $wpdb->get_blog_prefix() . "orders";
+        $query = "SELECT name, phone, answers, sum, created_at FROM $ordersTable ORDER BY created_at DESC";
  
         $data = $wpdb->get_results($query);
         $this->_column_headers = array($this->get_columns(), array(), array());
@@ -38,12 +33,16 @@ class My_Custom_Table extends WP_List_Table {
     // Вывод строки таблицы
     function column_default( $item, $column_name ) {
         switch( $column_name ) {
-            case 'title':
-            case 'author':
-            case 'categories':
-                return $item->$column_name;
+            case 'answers':
+                $str = '';
+                foreach(json_decode($item->$column_name) as $k => $v){
+                    $str .= '<strong>'.$k.'</strong>'. ': ' .$v . '<br>';
+                }
+                return $str;
+            case 'created_at':
+                return date_i18n( 'd-m-Y H:i', strtotime( $item->$column_name ));
             default:
-                return print_r( $item, true );
+                return $item->$column_name;
         }
     }
 }

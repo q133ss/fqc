@@ -34,3 +34,81 @@ Stack trace:
 #4 {main}
   thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 19
 [09-Jun-2023 12:33:09 UTC] WordPress database error Unknown column 'answer' in 'field list' for query INSERT INTO `wp_orders` (`name`, `phone`, `answer`) VALUES ('alexey', '899999', '\"1000-3000 \\u0448\\u0442\"') made by do_action('admin_post_order_form_handler'), WP_Hook->do_action, WP_Hook->apply_filters, order_form_handler
+[09-Jun-2023 19:48:14 UTC] PHP Warning:  Undefined array key "Откуда забираем1" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 21
+[09-Jun-2023 19:54:10 UTC] PHP Warning:  "integer" will be interpreted as a class name. Did you mean "int"? Write "\integer" to suppress this warning in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 40
+[09-Jun-2023 19:54:29 UTC] PHP Warning:  "integer" will be interpreted as a class name. Did you mean "int"? Write "\integer" to suppress this warning in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 40
+[09-Jun-2023 19:54:29 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Return value must be of type integer, int returned in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:58
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(21): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 58
+[09-Jun-2023 19:58:51 UTC] PHP Warning:  Undefined array key "Количество товара к упаковке" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 42
+[09-Jun-2023 20:08:53 UTC] PHP Parse error:  Unclosed '{' on line 40 in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 94
+[09-Jun-2023 20:16:53 UTC] PHP Notice:  Функция wpdb::prepare вызвана <strong>неправильно</strong>. Неподдерживаемый тип значения (array). Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 4.8.2.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 20:36:23 UTC] PHP Notice:  Функция wpdb::prepare вызвана <strong>неправильно</strong>. Неподдерживаемый тип значения (array). Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 4.8.2.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 20:37:56 UTC] PHP Notice:  Функция wpdb::prepare вызвана <strong>неправильно</strong>. Неподдерживаемый тип значения (array). Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 4.8.2.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 20:44:04 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Return value must be of type int, array returned in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:17
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(100): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 17
+[09-Jun-2023 20:44:20 UTC] PHP Warning:  Undefined array key "Отдельный короб" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 38
+[09-Jun-2023 20:46:07 UTC] PHP Warning:  Undefined array key "Отдельный короб" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 38
+[09-Jun-2023 20:46:10 UTC] PHP Warning:  Undefined array key "Отдельный короб" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 38
+[09-Jun-2023 20:47:17 UTC] PHP Warning:  Undefined array key "Отдельный короб" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 38
+[09-Jun-2023 20:47:33 UTC] PHP Warning:  Undefined array key "Отдельный короб" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 38
+[09-Jun-2023 20:53:09 UTC] WordPress database error Unknown column 'terms.name' in 'field list' for query SELECT post_title, post_author, GROUP_CONCAT(terms.name SEPARATOR ', ') AS categories FROM wp_posts
+                  LEFT JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id
+                  LEFT JOIN wp_term_taxonomy ON (wp_term_relationships.term_taxonomy_id = wp_term_taxonomy.term_taxonomy_id)
+                  LEFT JOIN wp_terms ON (wp_term_taxonomy.term_id = wp_terms.term_id) WHERE wp_posts.post_type = 'post'
+                    AND wp_posts.post_status = 'publish' GROUP BY wp_posts.ID made by do_action('toplevel_page_orders'), WP_Hook->do_action, WP_Hook->apply_filters, orders_page_callback, My_Custom_Table->prepare_items
+[09-Jun-2023 20:56:46 UTC] PHP Warning:  Undefined property: wpdb::$get_blog_prefix in D:\OpenServer\domains\fqc\wp-includes\class-wpdb.php on line 789
+[09-Jun-2023 20:56:46 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') . orders' at line 1 for query SELECT name, phone, answers FROM () . orders made by do_action('toplevel_page_orders'), WP_Hook->do_action, WP_Hook->apply_filters, orders_page_callback, My_Custom_Table->prepare_items
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$title in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 35
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$author in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 37
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$title in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 35
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$author in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 37
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$title in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 35
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$author in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 37
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$title in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 35
+[09-Jun-2023 20:59:18 UTC] PHP Warning:  Undefined property: stdClass::$author in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 37
+[09-Jun-2023 21:00:39 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php:1559
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php(1499): WP_List_Table->single_row_columns()
+#1 D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php(1486): WP_List_Table->single_row()
+#2 D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php(1471): WP_List_Table->display_rows()
+#3 D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php(1398): WP_List_Table->display_rows_or_placeholder()
+#4 D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\fcq-core.php(35): WP_List_Table->display()
+#5 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): orders_page_callback()
+#6 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#8 D:\OpenServer\domains\fqc\wp-admin\admin.php(259): do_action()
+#9 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-admin\includes\class-wp-list-table.php on line 1559
+[09-Jun-2023 21:14:36 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 43
+[09-Jun-2023 21:14:36 UTC] PHP Notice:  Функция is_embed вызвана <strong>неправильно</strong>. Условные теги не работают, пока не разобран запрос. До этого момента они всегда возвращают false. Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 3.1.0.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 21:14:36 UTC] PHP Notice:  Функция is_search вызвана <strong>неправильно</strong>. Условные теги не работают, пока не разобран запрос. До этого момента они всегда возвращают false. Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 3.1.0.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 21:14:38 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in D:\OpenServer\domains\fqc\wp-content\plugins\fcq-core\class.ordersTable.php on line 43
+[09-Jun-2023 21:14:38 UTC] PHP Notice:  Функция is_embed вызвана <strong>неправильно</strong>. Условные теги не работают, пока не разобран запрос. До этого момента они всегда возвращают false. Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 3.1.0.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[09-Jun-2023 21:14:38 UTC] PHP Notice:  Функция is_search вызвана <strong>неправильно</strong>. Условные теги не работают, пока не разобран запрос. До этого момента они всегда возвращают false. Дополнительную информацию можно найти на странице <a href="https://ru.wordpress.org/support/article/debugging-in-wordpress/">&laquo;Отладка в WordPress&raquo;</a>. (Это сообщение было добавлено в версии 3.1.0.) in D:\OpenServer\domains\fqc\wp-includes\functions.php on line 5865
+[11-Jun-2023 23:12:38 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 97
+[11-Jun-2023 23:12:38 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 105
+[11-Jun-2023 23:12:38 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Argument #1 ($data) must be of type array, null given, called in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 105 and defined in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:15
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(105): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(61): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 15
+[11-Jun-2023 23:12:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Jun-2023 23:12:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 368
