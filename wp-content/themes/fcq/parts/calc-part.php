@@ -13,7 +13,7 @@
         <div class="modal__box-answer" data-question="Габариты груза">от 3 до 7 кубов</div>
         <div class="modal__box-answer" data-question="Габариты груза">от 7 кубов и более</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
     </div>
 
     <div class="modal__box">
@@ -29,8 +29,8 @@
         <div class="modal__box-answer" data-question="Кто доставляет груз на Наш склад">Вы своими силами</div>
         <div class="modal__box-answer" data-question="Кто доставляет груз на Наш склад">Мы своими силами</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -48,8 +48,8 @@
         <div class="modal__box-answer" data-question="Откуда забираем">ТЯК Москва</div>
         <div class="modal__box-answer" data-question="Откуда забираем">Иное место в пределах МКАД</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -68,8 +68,8 @@
         <div class="modal__box-answer" data-question="Колличество товара к упаковке">1000-3000 шт</div>
         <div class="modal__box-answer" data-question="Колличество товара к упаковке">3000 и более</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -90,8 +90,8 @@
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Отдельный короб</div>
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Другое</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -109,8 +109,8 @@
         <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">2 этикетки</div>
         <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">3 этикетки</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -129,8 +129,8 @@
         <div class="modal__box-answer" data-question="Как доставляем товар">Паллета + короб 60х40х40 12шт</div>
         <div class="modal__box-answer" data-question="Как доставляем товар">Палетта + Другой короб</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -147,8 +147,8 @@
         <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Вы сами</div>
         <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Мы</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -165,8 +165,8 @@
         <div class="modal__box-answer" data-question="Требуется погрузка">Да</div>
         <div class="modal__box-answer" data-question="Требуется погрузка">Нет</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -183,8 +183,8 @@
         <div class="modal__box-answer" data-question="Что грузим">Паллета</div>
         <div class="modal__box-answer" data-question="Что грузим">Короб</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -202,8 +202,8 @@
         <div class="modal__box-answer" data-question="Что поставляем">Короба 60х40х40</div>
         <div class="modal__box-answer" data-question="Что поставляем">Короба менее 60х40х40</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -221,8 +221,8 @@
         <div class="modal__box-answer" data-question="Куда доставляем">Коледино</div>
         <div class="modal__box-answer" data-question="Куда доставляем">СЦ Пушкино</div>
       </div>
-      <a class="modal__box-close back" href="#close">Закрыть</a>
-      <a class="modal__box-close" href="#close" style="right: 135px;">Назад</a>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -286,6 +286,6 @@
           </i>
           e-mail
         </a> </p>
-      <!-- <a class="modal__box-close back" href="#close">Закрыть</a> -->
+      <!-- <a class="modal__box-close" href="#close">Закрыть</a> -->
     </div>
   </div>
