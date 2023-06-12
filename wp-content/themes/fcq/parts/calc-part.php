@@ -1,5 +1,5 @@
 <div id="modal" class="modal">
-    <div class="modal__box active">
+    <div class="modal__box">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">1 из 7</div>
@@ -206,7 +206,7 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box">
+    <div class="modal__box active">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">11 из 7</div>
@@ -226,6 +226,8 @@
     </div>
 
     <div class="modal__box">
+      <h4>Ваши ответы</h4>
+      <div class="answers"></div>
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
       </p>
