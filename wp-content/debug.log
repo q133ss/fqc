@@ -112,3 +112,46 @@ Stack trace:
   thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 15
 [11-Jun-2023 23:12:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 367
 [11-Jun-2023 23:12:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[13-Jun-2023 17:33:21 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 87
+[13-Jun-2023 17:33:21 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95
+[13-Jun-2023 17:33:21 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Argument #1 ($data) must be of type array, null given, called in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95 and defined in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:5
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(95): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 5
+[13-Jun-2023 17:33:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[13-Jun-2023 17:33:21 UTC] PHP Warning:  Trying to access array offset on value of type bool in D:\OpenServer\domains\fqc\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[13-Jun-2023 17:33:47 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95
+[13-Jun-2023 17:33:47 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Argument #1 ($data) must be of type array, null given, called in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95 and defined in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:5
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(95): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 5
+[13-Jun-2023 17:35:03 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95
+[13-Jun-2023 17:35:03 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Argument #1 ($data) must be of type array, null given, called in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95 and defined in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:5
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(95): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 5
+[13-Jun-2023 17:38:10 UTC] PHP Warning:  Undefined array key "answer" in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95
+[13-Jun-2023 17:38:10 UTC] PHP Fatal error:  Uncaught TypeError: calcResult(): Argument #1 ($data) must be of type array, null given, called in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 95 and defined in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php:5
+Stack trace:
+#0 D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php(95): calcResult()
+#1 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(308): order_form_handler()
+#2 D:\OpenServer\domains\fqc\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 D:\OpenServer\domains\fqc\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 D:\OpenServer\domains\fqc\wp-admin\admin-post.php(85): do_action()
+#5 {main}
+  thrown in D:\OpenServer\domains\fqc\wp-content\themes\fcq\functions.php on line 5

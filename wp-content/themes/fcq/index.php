@@ -25,7 +25,7 @@
           Только для <span>Wildberries</span>
         </p>
         <div class="request__btns">
-          <a class="request__btn" href="#modal">Оставить заявку</a>
+          <a class="request__btn" href="#form">Оставить заявку</a>
           <a class="request__btn" href="#modal">Тарифы</a>
         </div>
       </div>
@@ -236,7 +236,7 @@
           Оставьте заявку и мы подберем для вас оптимально выгодный вариант.
         </p>
         <div class="service__btns">
-          <a class="service__btn" href="/">Оставить заявку</a>
+          <a class="service__btn" href="#form">Оставить заявку</a>
           <a href="#modal" class="stepform_WiwJt4C rnd_1227741879 service__btn">
             Калькулятор
           </a>

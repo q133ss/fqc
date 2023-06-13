@@ -2,16 +2,6 @@
 add_action( 'admin_post_order_form_handler', 'order_form_handler' );
 add_action( 'admin_post_nopriv_order_form_handler', 'order_form_handler' );
 
-
-#[NoReturn] function dd(mixed $data):void
-    {
-        echo "<pre style='background:#1d1d1d; color: greenyellow; position:absolute; left: 0; top: 0; z-index: 9999999; width: 100%; height: 600px'>";
-        print_r($data);
-        echo '<pre>';
-        die();
-    }
-
-
 function calcResult(array $data) {
 	$sum = 0;
 	if(isset($data['Откуда забираем'])){
@@ -94,7 +84,7 @@ function order_form_handler() {
     // Получаем данные из формы
     $name = sanitize_text_field( $_POST['name'] );
     $phone = sanitize_text_field( $_POST['phone'] );
-    $answer = wp_json_encode( $_POST['answer'] );
+    $answer = isset($_POST['answer']) ? wp_json_encode( $_POST['answer'] ) : '{}';
 
     // Обрабатываем данные формы
     $table_name = $wpdb->prefix . 'orders';
@@ -102,7 +92,7 @@ function order_form_handler() {
 	    'name' => $name,
 	    'phone' => $phone,
 	    'answers' => $answer,
-	    'sum' => calcResult($_POST['answer']),
+	    'sum' => isset($_POST['answer']) ? calcResult($_POST['answer']) : 0,
 	);
 	$format = array('%s', '%s', '%s');
 	$wpdb->insert($table_name, $data, $format);

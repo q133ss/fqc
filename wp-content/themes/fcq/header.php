@@ -44,7 +44,7 @@
               <a class="header__btn-link" href="">Калькулятор</a>
             </div>
             <div class="header__btn">
-              <a class="header__btn-link" href="#modal">Заказать звонок</a>
+              <a class="header__btn-link" href="#form">Заказать звонок</a>
             </div>
           </div>
         </div>
