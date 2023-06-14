@@ -2,27 +2,73 @@
 /* Template Name: Shipping */
 get_header();
 ?>
-<section class="delivery">
+<div class="header-wrapper delivery_header">
+
+    <header class="header">
+
+      <div class="container">
+
+        <div class="header__inner">
+
+          <div class="header__content">
+
+            <div class="header__logo">
+
+              <a class="header__logo-link" href="/">
+
+                FCQ
+
+              </a>
+
+            </div>
+
+            <?php get_template_part('parts/menu'); ?>
+
+          </div>
+
+          <div class="header__btns">
+
+            <div class="header__btn">
+
+              <a class="header__btn-link" href="">Калькулятор</a>
+
+            </div>
+
+            <div class="header__btn">
+
+              <a class="header__btn-link" href="#modal">Заказать звонок</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+<section class="request delivery">
 
   <div class="container">
 
     <div class="delivery__inner">
 
-      <h1 class="delivery__title">Доставка товаров <br> из Китая И России</h1>
+      <h1 class="request__title delivery__title">Доставка товаров <br> из Китая</h1>
 
-      <div class="delivery__btns">
+      <div class="request_btns delivery__btns">
 
-        <a class="delivery__btn" href="/">Заказать расчет</a>
+        <a class="request__btn delivery__btn" href="#form">Заказать расчет</a>
+        <a class="request__btn" href="#modal">Тарифы</a>
 
       </div>
 
       <div class="delivery__info">
 
-        <p class="delivery__info-text">Доставим и проверим на брак</p>
+        <p class="delivery__info-text">Найдём, выкупим и проверим ваш <br> товар в Китае</p>
 
-        <p class="delivery__info-text">Упакуем и промаркируем</p>
+        <p class="delivery__info-text">Доставим в Россию в сжатые сроки</p>
 
-        <p class="delivery__info-text">Отправим на Wildberries</p>
+        <p class="delivery__info-text">Предложим оптимальный вариант <br> доставки</p>
 
       </div>
 
@@ -30,7 +76,7 @@ get_header();
 
     <div class="delivery__bottom">
 
-      <button class="delivery__bottom-btn">
+      <button class="request__bottom-btn delivery__bottom-btn">
 
         <i>
 
@@ -66,45 +112,29 @@ get_header();
 
       <div class="benefit__inner">
 
-        <h2 class="benefit__title">С нами выгодно! </h2>
+        <h2 class="question__title benefit__title">Почему с нами выгодно</h2>
 
-        <p class="benefit__text">“Фулфилмент” организует все процессы, ваши заказы будут обработаны быстро и
-
-          эффективно, а товары доставлены вовремя и в целости и сохранности. Кроме того, вы сможете сосредоточиться
-
-          на продажах и маркетинге, не тратя время на управление логистикой и обслуживание клиентов. “Фулфилмент” -
-
-          это незаменимый инструмент для успешного онлайн-бизнеса.</p>
+        <p class="question__text benefit__text">Компания Fulfillmsk доставит ваши грузы из Китая в Россию. Перевозим сборные и генеральные грузы, оформляем. Выполним грузоперевозку авиа, морским, железнодорожным и автомобильным транспортом.</p>
 
         <div class="benefit__item">
 
-          <img class="benefit__item-img" src="images/benefit-img.png" alt="">
+          <img class="benefit__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
-          <p class="benefit__item-text">Поможем на каждом шаге
+          <p class="benefit__item-text">Предложим индивидуальные условия перевозки грузов
 
         </div>
 
         <div class="benefit__item">
 
-          <img class="benefit__item-img" src="images/benefit-img.png" alt="">
+          <img class="benefit__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
-          <p class="benefit__item-text">Найдем оптимальные решения
-
-        </div>
-
-        <div class="benefit__item">
-
-          <img class="benefit__item-img" src="images/benefit-img.png" alt="">
-
-          <p class="benefit__item-text">Предложим самые выгодные условия
+          <p class="benefit__item-text">Поможем с оформлением и решением вопросов, связанных с ведением ВЭД в Китае.
 
         </div>
 
         <p class="benefit__info">
 
-          Мы самостоятельно найдем нужный вам товар, обговорим все нюансы и выкупим для дальнейшей доставки в
-
-          Россию. Позвоните нам, чтобы узнать о всех преимуществах работы по телефону <a href="tel:79998888558">+7&nbsp;(999)&nbsp;888&nbsp;8558</a> или <a href="tel:+79295174678">+7&nbsp;(929)&nbsp;517&nbsp;4678</a>
+          Мы самостоятельно найдем нужный вам товар, обговорим все нюансы и выкупим для дальнейшей доставки в Россию. Позвоните нам, чтобы узнать о всех преимуществах работы по телефону <a href="tel:89032508383">8 (903) 250-83-83</a> или <a href="tel:89265829145">8 (926) 582-91-45</a>
 
         </p>
 
@@ -114,7 +144,7 @@ get_header();
 
   </section>
 
-  <!-- <section class="order">
+  <section class="order">
 
     <div class="container">
 
@@ -136,13 +166,13 @@ get_header();
 
       </div>
 
-      <img class="order__img" src="images/order-img.png" alt="">
+      <img class="order__img" src="<?php echo get_template_directory_uri(); ?>/assets/images/order-img.png" alt="">
 
     </div>
 
-  </section> -->
+  </section>
 
-  <!-- <section class="delivery-types">
+  <section class="delivery-types">
 
     <div class="container">
 
@@ -156,7 +186,7 @@ get_header();
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
               <p class="delivery-types__item-title">КАРГО-ДОСТАВКА</p>
 
@@ -172,7 +202,7 @@ get_header();
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
               <p class="delivery-types__item-title">Самолет, быстрое авто, обычное авто, ж-д доставка</p>
 
@@ -188,7 +218,7 @@ get_header();
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
               <p class="delivery-types__item-title">ДОСТАВКА ТОВАРА ПОД <br> ОТДЕЛ РАСТОМОЖКИ</p>
 
@@ -206,7 +236,7 @@ get_header();
 
     </div>
 
-  </section> -->
+  </section>
 
   <section class="stages">
 
@@ -278,9 +308,7 @@ get_header();
 
   </section>
 
-
-
-  <!-- <section class="shipping">
+  <section class="shipping">
 
     <div class="container">
 
@@ -310,7 +338,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Найти фабрику</p>
 
@@ -318,7 +346,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Посетить ее, обратить внимание на производственные мощности и условия труда
 
@@ -328,7 +356,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Договориться о стоимости продукции, сроках поставки</p>
 
@@ -336,7 +364,7 @@ get_header();
 
         <div class="shipping__item last">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Организовать контроль качества</p>
 
@@ -364,7 +392,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Поиском надежных фабрик</p>
 
@@ -372,7 +400,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Инспекциями на территорию предприятий</p>
 
@@ -380,7 +408,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Согласованием всех мелочей</p>
 
@@ -388,7 +416,7 @@ get_header();
 
         <div class="shipping__item last">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Логистическими вопросами</p>
 
@@ -408,7 +436,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Фабрики нет. Представитель компании оказался посредником</p>
 
@@ -416,7 +444,7 @@ get_header();
 
         <div class="shipping__item">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Фабрика не принадлежит компании, с которой вы связались. Важно выяснить это
 
@@ -428,7 +456,7 @@ get_header();
 
         <div class="shipping__item end">
 
-          <img class="shipping__item-img" src="images/benefit-img.png" alt="">
+          <img class="shipping__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
           <p class="shipping__item-text">Производственные мощности старые, предприятие работает с нарушениями. Это
 
@@ -462,7 +490,7 @@ get_header();
 
     </div>
 
-  </section> -->
+  </section>
 
 </main>
 <?php get_footer(); ?>

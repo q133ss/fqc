@@ -2000,3 +2000,59 @@ body {
     right: 20px;
     font-weight: 400;
 }
+
+.delivery_header {
+  background-image: url('../images/Rectangle12.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.delivery__title:after {
+  content: "";
+}
+
+.delivery__title {
+  font-weight: 800;
+  font-size: 60px;
+  text-transform: uppercase!important;
+}
+
+.delivery__btns{
+  margin-top: 54px;
+}
+
+.delivery__info{
+  display: grid;
+  justify-content: right;
+}
+
+.delivery__info-text{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.delivery__info-text:before{
+  content: "";
+  background-image: url('../images/Ellipse4.png');
+  height: 8px;
+  width: 8px;
+  position: relative;
+  right: 21px;
+  top: 17px;
+  display: block;
+}
+
+.benefit__title{
+  font-weight: 800;
+}
+
+.benefit__info{
+  font-size: 27px;
+}
+
+.benefit__info a {
+  color: #FFFFFF;
+}

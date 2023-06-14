@@ -14,39 +14,3 @@
 </head>
 
 <body>
-  <div class="header-wrapper header-wrapper--bg">
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__content">
-            <div class="header__logo">
-              <a class="header__logo-link" href="/">
-                FCQ
-              </a>
-            </div>
-            <div class="header__menu">
-              <div class="header__menu-item">
-                <a class="header__menu-link" href="/">Схема работы</a>
-              </div>
-              <div class="header__menu-item">
-                <a class="header__menu-link" href="/">Прайс</a>
-              </div>
-              <div class="header__menu-item">
-                <a class="header__menu-link" href="/">Доставка из китая</a>
-              </div>
-              <div class="header__menu-item">
-                <a class="header__menu-link" href="/">О нас</a>
-              </div>
-            </div>
-          </div>
-          <div class="header__btns">
-            <div class="header__btn">
-              <a class="header__btn-link" href="">Калькулятор</a>
-            </div>
-            <div class="header__btn">
-              <a class="header__btn-link" href="#form">Заказать звонок</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
