@@ -58,7 +58,7 @@ get_header();
       <div class="request_btns delivery__btns">
 
         <a class="request__btn delivery__btn" href="#form">Заказать расчет</a>
-        <a class="request__btn" href="#modal">Тарифы</a>
+        <a class="request__btn delivery__tarif_btn" href="#modal">Тарифы</a>
 
       </div>
 
@@ -134,7 +134,7 @@ get_header();
 
         <p class="benefit__info">
 
-          Мы самостоятельно найдем нужный вам товар, обговорим все нюансы и выкупим для дальнейшей доставки в Россию. Позвоните нам, чтобы узнать о всех преимуществах работы по телефону <a href="tel:89032508383">8 (903) 250-83-83</a> или <a href="tel:89265829145">8 (926) 582-91-45</a>
+          Мы самостоятельно найдем нужный вам товар, обговорим все нюансы и выкупим для дальнейшей доставки в Россию.<br style="display:none;" class="br_for_mobile"><br style="display:none;" class="br_for_mobile"> Позвоните нам, чтобы узнать о всех преимуществах работы по телефону<br style="display:none;" class="br_for_mobile"> <a href="tel:89032508383">8 (903) 250-83-83</a><br style="display:none;" class="br_for_mobile"> или <a href="tel:89265829145">8 (926) 582-91-45</a>
 
         </p>
 
@@ -320,7 +320,7 @@ get_header();
 
       <div class="delivery-types__inner">
 
-        <h2 class="delivery-types__title advantage__title">Тарифы</h2>
+        <h2 class="delivery__tarif_title delivery-types__title advantage__title">Тарифы</h2>
 
         <div class="tarif__wrap">
           <div class="tarif__block">
@@ -458,7 +458,7 @@ get_header();
 
         <h5 class="shipping__title accordion__title shipping_accord_title">Доставка товара из Китая</h5>
 
-        <p class="shipping__text">Китай — основной поставщик продукции для российских и мировых маркетплейсов,
+        <p class="shipping__text shipping__text-china">Китай — основной поставщик продукции для российских и мировых маркетплейсов,
 
           магазинов. Именно в КНР находится огромное количество фабрик, выпускающих товары в разных категориях.
 
@@ -474,7 +474,7 @@ get_header();
 
         <h5 class="shipping__title accordion__title shipping_accord_title">Проблемы работы с Китаем</h5>
 
-        <p class="shipping__text">Для того, чтобы заказывать оптовые партии товар. необходимо пройти ряд процедур
+        <p class="shipping__text">Для того, чтобы заказывать оптовые партии товар.<br> Необходимо пройти ряд процедур
 
         </p>
 
@@ -520,7 +520,7 @@ get_header();
 
           у реальной фабрики. Поэтому после того, как выбран производитель, нужно совершить инспекцию.</p>
 
-        <p class="shipping__text">Английский язык в КНР знают не очень хорошо, а русский вообще не знают.
+        <p class="shipping__text shipping__text_eng">Английский язык в КНР знают не очень хорошо, а русский вообще не знают.
 
           Коммуникация с производителями будет серьезно затруднена, поторговаться тоже не получится. О контроле
 
@@ -528,7 +528,7 @@ get_header();
 
         <h5 class="shipping__title accordion__title shipping_accord_title">Решение проблемы</h5>
 
-        <p class="shipping__text">Компания Fulfillmsk предлагает полный комплекс услуг по организации деловых
+        <p class="shipping__text shipping__text_comp">Компания Fulfillmsk предлагает полный комплекс услуг по организации деловых
 
           отношений с китайской стороной. Мы занимаемся:</p>
 
@@ -572,7 +572,7 @@ get_header();
 
           клиенты Fulfillmsk.</p>
 
-        <p class="shipping__text">Осуществляются инспекции на территорию предприятий. Зачем это нужно? Во время
+        <p class="shipping__text shipping__text_insp">Осуществляются инспекции на территорию предприятий. Зачем это нужно? Во время
 
           первой инспекции можно обнаружить, что:</p>
 
@@ -608,7 +608,7 @@ get_header();
 
         <h5 class="shipping__title accordion__title shipping_accord_title">Доставка продукции</h5>
 
-        <p class="shipping__text">Мало найти фабрику и избежать подводных камней при заключении договора. Необходимо
+        <p class="shipping__text shipping__text_fabric">Мало найти фабрику и избежать подводных камней при заключении договора. Необходимо
 
           организовать контроль качества, продумать логистику, согласовать вопросы возврата брака или получения
 
