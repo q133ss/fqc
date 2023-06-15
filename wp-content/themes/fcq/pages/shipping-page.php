@@ -74,7 +74,7 @@ get_header();
 
     </div>
 
-    <div class="delivery__bottom">
+    <div class="delivery__bottom request__bottom">
 
       <button class="request__bottom-btn delivery__bottom-btn">
 
@@ -120,7 +120,7 @@ get_header();
 
           <img class="benefit__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
-          <p class="benefit__item-text">Предложим индивидуальные условия перевозки грузов
+          <p class="benefit__item-text question__text">Предложим индивидуальные условия перевозки грузов
 
         </div>
 
@@ -128,7 +128,7 @@ get_header();
 
           <img class="benefit__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/benefit-img.png" alt="">
 
-          <p class="benefit__item-text">Поможем с оформлением и решением вопросов, связанных с ведением ВЭД в Китае.
+          <p class="benefit__item-text question__text">Поможем с оформлением и решением вопросов, связанных с ведением ВЭД в Китае.
 
         </div>
 
@@ -144,13 +144,13 @@ get_header();
 
   </section>
 
-  <section class="order">
+  <section class="order question">
 
-    <div class="container">
+    <div class="container order__wrap">
 
       <div class="order__inner">
 
-        <h2 class="order__title">Оставьте заявку на услуги “Фулфилмента”</h2>
+        <h2 class="order__title question__title">Закажите услуги доставки товаров из Китая</h2>
 
         <form class="order__form">
 
@@ -160,7 +160,7 @@ get_header();
 
           <input class="order__input" type="tel" placeholder="Ваш телефон">
 
-          <button class="order__btn" type="submit">Отправить</button>
+          <button class="order__btn service__btn" type="submit">Отправить</button>
 
         </form>
 
@@ -178,19 +178,19 @@ get_header();
 
       <div class="delivery-types__inner">
 
-        <h2 class="delivery-types__title">Виды доставки</h2>
+        <h2 class="delivery-types__title advantage__title">Виды доставки</h2>
 
-        <div class="delivery-types__content">
+        <div class="delivery-types__content advantage__content">
 
-          <div class="delivery-types__item">
+          <div class="delivery-types__item advantage__item">
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
-              <p class="delivery-types__item-title">КАРГО-ДОСТАВКА</p>
+              <p class="delivery-types__item-title advantage__item-title">КАРГО-ДОСТАВКА</p>
 
-              <p class="delivery-types__item-text">Самолет, быстрое авто, обычное авто, ж-д доставка</p>
+              <p class="delivery-types__item-text advantage__text">Самолет, быстрое авто, обычное авто, ж-д доставка</p>
 
             </div>
 
@@ -198,15 +198,15 @@ get_header();
 
           </div>
 
-          <div class="delivery-types__item">
+          <div class="delivery-types__item advantage__item">
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
-              <p class="delivery-types__item-title">Самолет, быстрое авто, обычное авто, ж-д доставка</p>
+              <p class="delivery-types__item-title advantage__item-title">Самолет, быстрое авто, обычное авто, ж-д доставка</p>
 
-              <p class="delivery-types__item-text">Авто, самолет и Жд, контейнерные перевозки</p>
+              <p class="delivery-types__item-text advantage__text">Авто, самолет и Жд, контейнерные перевозки</p>
 
             </div>
 
@@ -214,15 +214,15 @@ get_header();
 
           </div>
 
-          <div class="delivery-types__item">
+          <div class="delivery-types__item advantage__item">
 
             <div class="delivery-types__item-box">
 
-              <img class="delivery-types__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
+              <img class="delivery-types__item-img advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/delivery-types-img.png" alt="">
 
-              <p class="delivery-types__item-title">ДОСТАВКА ТОВАРА ПОД <br> ОТДЕЛ РАСТОМОЖКИ</p>
+              <p class="delivery-types__item-title advantage__item-title">ДОСТАВКА ТОВАРА ПОД <br> ОТДЕЛ РАСТОМОЖКИ</p>
 
-              <p class="delivery-types__item-text">Авто, самолет и Жд, контейнерные перевозки</p>
+              <p class="delivery-types__item-text advantage__text">Авто, самолет и Жд, контейнерные перевозки</p>
 
             </div>
 
@@ -238,7 +238,7 @@ get_header();
 
   </section>
 
-  <section class="stages">
+  <section class="stages question">
 
     <div class="container">
 
@@ -247,6 +247,8 @@ get_header();
         <h2 class="stages__title">Этапы работы</h2>
 
         <div class="stages__content">
+
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Arrow5.png" alt="">
 
           <div class="stages__item">
 
@@ -271,6 +273,8 @@ get_header();
             <p class="stages__item-num">03</p>
 
           </div>
+
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Arrow6.png" alt="">
 
           <div class="stages__item">
 
@@ -300,6 +304,8 @@ get_header();
 
           </div>
 
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Arrow5.png" alt="">
+
         </div>
 
       </div>
@@ -308,13 +314,149 @@ get_header();
 
   </section>
 
+  <section class="delivery-types">
+
+    <div class="container">
+
+      <div class="delivery-types__inner">
+
+        <h2 class="delivery-types__title advantage__title">Тарифы</h2>
+
+        <div class="tarif__wrap">
+          <div class="tarif__block">
+            <h2 class="tarif__title advantage__item-title">КАРГО-ДОСТАВКА</h2>
+            <div class="tarif__content question__text">
+              <div class="tarif__item">
+                  Самолет <span class="tarif__value">от 10$</span>
+              </div>
+
+              <div class="tarif__item">
+                  Быстрое авто <span class="tarif__value">от 3.5$</span>
+              </div>
+
+              <div class="tarif__item">
+                  Обычное авто <span class="tarif__value">от 3$</span>
+              </div>
+
+              <div class="tarif__item">
+                  Ж/д доставка <span class="tarif__value">от 1.5$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tarif__block">
+            <h2 class="tarif__title advantage__item-title">Белая доставка</h2>
+            <div class="tarif__content question__text tarif__only_text">
+              Расчет производится по упаковочному листу
+              Все условия доставки обговариваются индивидуально
+              Цена зависит от метода доставки, таможенных пошлин и документов на товар
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="accordion">
+    <div class="container">
+      <div class="accordion__inner">
+        <h2 class="accordion__title shipping_accord_title">Вопрос-ответ</h2>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Как начать сотрудничество?</p>
+            <p class="accordion__item-text">Оставить заявку или связаться с нами любым доступным способом. Заключить
+              с нами договор о предоставлении услуг. Прислать груз, предоставить справочник товаров и дождаться
+              приемки груза нашим складом. Приемка груза в среднем занимает 1 рабочий день</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Как производится расчет оплаты?</p>
+            <p class="accordion__item-text">Расчёт производится согласно прайсу, если запрашиваемой услуги там не
+              оказалось, цена обсуждается с Вами в индивидуальном порядке, делается полный расчёт стоимости,
+              согласно Вашему техническому заданию, в таблице Excel и отправляется Вам на рассмотрение. После
+              согласования цены, начинаем работать. Оплата производится после полной упаковки товара и готовности к
+              его отгрузке согласно подписанному договору.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Какие требования к принимаемому товару?</p>
+            <p class="accordion__item-text">Мы принимаем все товары, которые не запрещены законом РФ, не являются
+              скоропортящимися и не требуют температурных режимов хранения. Мы предъявляем особые требования к
+              опасным грузам, например, легковоспламеняющимся, содержащим большое количество жидкости, ножам и пр.
+              Для товаров, которые легко повредить, обязательно согласуются особые требования к упаковке.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Как происходит идентификация товара?</p>
+            <p class="accordion__item-text">Приемка товара осуществляется на основе справочника товара, который Вы
+              нам предоставляете. Справочник товаров это Excel документ, в котором указаны названия, идентификаторы
+              товаров (заводские штрих-коды или ваши собственные обозначения) и их объявленная ценность.
+              Идентификация товаров осуществляется по заводским штрих-кодам или визуально на основании
+              опознавательных знаков.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Как вы упаковываете товары перед отправкой?</p>
+            <p class="accordion__item-text">Товар упаковывается по заранее установленному тех-заданию,
+              соответствующему всем требованиям Маркетплейса.
+              Если потребуется другая упаковка, мы можем упаковывать товар в предоставленный вами упаковочный
+              материал, либо индивидуально договориться о предоставлении специальных упаковочных материалов.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">В каких условиях хранится груз?</p>
+            <p class="accordion__item-text">Хранение товаров осуществляется на теплом складе. Средние диапазоны
+              температур от +16 до +25С. На территории склада ведётся круглосуточное видеонаблюдение.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-info">
+            <p class="accordion__item-name">Как быстро обрабатываются заявки на отгрузку?</p>
+            <p class="accordion__item-text">Товар собирается, упаковывается и передается в зону отправки в течение
+              48 часов после получения товара от клиента. У нас собственный автопарк и водитель, товар отгружается
+              на Маркетплейс ежедневно, согласно плану поставок.</p>
+          </div>
+          <div class="accordion__item-btn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="shipping">
 
     <div class="container">
 
       <div class="shipping__inner">
 
-        <h5 class="shipping__title">Доставка товара из Китая</h5>
+        <h5 class="shipping__title accordion__title shipping_accord_title">Доставка товара из Китая</h5>
 
         <p class="shipping__text">Китай — основной поставщик продукции для российских и мировых маркетплейсов,
 
@@ -330,7 +472,7 @@ get_header();
 
           брака и по разумным ценам.</p>
 
-        <h5 class="shipping__title">Проблемы работы с Китаем</h5>
+        <h5 class="shipping__title accordion__title shipping_accord_title">Проблемы работы с Китаем</h5>
 
         <p class="shipping__text">Для того, чтобы заказывать оптовые партии товар. необходимо пройти ряд процедур
 
@@ -370,7 +512,7 @@ get_header();
 
         </div>
 
-        <p class="shipping__text">Для большинства продавцов проблему представляет уже первый пункт списка - поиск
+        <p class="shipping__text shipping__text_seller">Для большинства продавцов проблему представляет уже первый пункт списка - поиск
 
           фабрик. В Китае много предприятий, однако также немало посредников, живущих за счет накрутки. Можно
 
@@ -384,7 +526,7 @@ get_header();
 
           качества можно вообще забыть.</p>
 
-        <h5 class="shipping__title">Решение проблемы</h5>
+        <h5 class="shipping__title accordion__title shipping_accord_title">Решение проблемы</h5>
 
         <p class="shipping__text">Компания Fulfillmsk предлагает полный комплекс услуг по организации деловых
 
@@ -422,7 +564,7 @@ get_header();
 
         </div>
 
-        <p class="shipping__text">Наши специалисты могут найти китайского производителя разными способами. Мы
+        <p class="shipping__text shipping__text_problem">Наши специалисты могут найти китайского производителя разными способами. Мы
 
           подбираем фабрики на специализированных китайских интернет-площадках, выставках, форумах, а также через
 
@@ -464,7 +606,7 @@ get_header();
 
         </div>
 
-        <h5 class="shipping__title">Доставка продукции</h5>
+        <h5 class="shipping__title accordion__title shipping_accord_title">Доставка продукции</h5>
 
         <p class="shipping__text">Мало найти фабрику и избежать подводных камней при заключении договора. Необходимо
 
