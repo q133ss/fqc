@@ -2291,6 +2291,32 @@ body {
   width: auto;
 }
 
+.about__section{
+  padding-top: 108px;
+}
+
+.about-us__title{
+  margin-bottom: 40px!important;
+  padding-bottom: 0;
+}
+
+.about-us__text{
+  padding-bottom: 128px;
+  max-width: 600px;
+}
+
+.about-us__item-title{
+  margin-top: 62px;
+  font-weight: 800;
+  margin-bottom: 29px;
+}
+
+.about-us__item-text{
+  padding-bottom: 0;
+  font-size: 20px;
+  max-width: 945px;
+}
+
 @media screen and (max-width: 768px){
   .delivery_header{
     height: 75%;
@@ -2454,6 +2480,11 @@ body {
   }
   .shipping__text_fabric{
     width: 100%;
+  }
+
+  .about__header-wrap{
+    padding-bottom: 0;
+    margin: 20px 10px 0;
   }
 }
 
