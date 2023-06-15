@@ -2287,6 +2287,10 @@ body {
   width: 1056px;
 }
 
+.contacts__item-link--btn{
+  width: auto;
+}
+
 @media screen and (max-width: 768px){
   .delivery_header{
     height: 75%;
