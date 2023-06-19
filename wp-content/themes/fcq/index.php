@@ -49,7 +49,7 @@
         </p>
         <div class="request__btns">
           <a class="request__btn" href="#form">Оставить заявку</a>
-          <a class="request__btn" href="#modal">Тарифы</a>
+          <a class="request__btn" href="#modal">Калькулятор</a>
         </div>
       </div>
     </div>

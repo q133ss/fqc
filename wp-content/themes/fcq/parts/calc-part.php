@@ -225,9 +225,9 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box" style="height: 100%;margin-top: 0;">
+    <div class="modal__box" style="height: 100%;margin-top: 0;overflow-y: scroll;">
       <h4>Ваши ответы</h4>
-      <div class="answers"></div>
+      <div class="answers" style="text-align: left;line-height: 140%;align-self: center;"></div>
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
       </p>
