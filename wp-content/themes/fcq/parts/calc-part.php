@@ -226,8 +226,18 @@
     </div>
 
     <div class="modal__box" style="height: 100%;margin-top: 0;overflow-y: scroll;">
-      <h4>Ваши ответы</h4>
       <div class="answers" style="text-align: left;line-height: 140%;align-self: center;"></div>
+
+      <div class="price__table-section">
+            <div class="price__table-name_section" id="totalTableName">
+              <div class="price__table_header_title question__text">Вопрос</div>
+            </div>
+            <div class="price__table_white_line"></div>
+            <div class="price__table_price_section" style="width: 55%;" id="totalTableCol">
+              <div class="price__table_header_title question__text">Ответ</div>
+            </div>
+      </div>
+
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
       </p>

@@ -148,9 +148,44 @@ body {
   padding-top: 25px
 }
 
-@media(max-width: 1399px) {
-  .header {
-    display: none
+.mobileMenu{
+  display: none;
+}
+
+.mobile__menu-wrap{
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+
+@media(max-width: 850px) {
+  .header__menu {
+    display: none!important;
+  }
+
+  .header__logo{
+    display: none;
+  }
+
+  .mobileMenu{
+    display: block;
+  }
+
+  .header__btns{
+    display: none !important;
+  }
+
+  .header__content{
+    justify-content: space-between;
+  }
+
+  .modal{
+    overflow-y: scroll;
+  }
+
+  .modal__box-back{
+    bottom: 2px!important;
+    padding: 5px 10px!important;
   }
 }
 
@@ -2564,5 +2599,9 @@ body {
   .about__header-wrap{
     padding-bottom: 0;
     margin: 20px 10px 0;
+  }
+
+  .price__table_white_line{
+    margin: 0 5px 0 5px;
   }
 }

@@ -158,8 +158,22 @@
           </i>
           e-mail
         </a> </p>
-      <!-- <a class="modal__box-close" href="#close">Закрыть</a> -->
       <span class="modal__box-close" id="formClose">Закрыть</span>
+    </div>
+  </div>
+
+  <div id="mobile" class="modal">
+    <div class="modal__box active">
+      <p class="modal__box-text">
+        <ul class="mobile__menu-wrap">
+          <li><a href="/" class="header__menu-link">Главная</a></li>
+          <li><a href="/price" class="header__menu-link">Прайс</a></li>
+          <li><a href="/shipping" class="header__menu-link">Доставка из китая</a></li>
+          <li><a href="/about" class="header__menu-link">О нас</a></li>
+          <li><a href="/contacts" class="header__menu-link">Контакты</a></li>
+        </ul>
+      </p>
+      <span class="modal__box-close" id="mobileClose">X</span>
     </div>
   </div>
 

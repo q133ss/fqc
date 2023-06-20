@@ -12,3 +12,6 @@
     <a class="header__menu-link" href="/">О нас</a>
   </div>
 </div>
+<a href="#mobile" class="mobileMenu">
+  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/menu.png" alt="">
+</a>

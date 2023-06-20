@@ -1,27 +1,27 @@
 <?php get_header(); ?>
 <div class="header-wrapper header-wrapper--bg">
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__content">
-            <div class="header__logo">
-              <a class="header__logo-link" href="/">
-                FCQ
-              </a>
-            </div>
-            <?php get_template_part('parts/menu'); ?>
-          </div>
-          <div class="header__btns">
-            <div class="header__btn">
-              <a class="header__btn-link" href="">Калькулятор</a>
-            </div>
-            <div class="header__btn">
-              <a class="header__btn-link" href="#form">Заказать звонок</a>
-            </div>
-          </div>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__content">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/">
+            FCQ
+          </a>
+        </div>
+        <?php get_template_part('parts/menu'); ?>
+      </div>
+      <div class="header__btns">
+        <div class="header__btn">
+          <a class="header__btn-link" href="">Калькулятор</a>
+        </div>
+        <div class="header__btn">
+          <a class="header__btn-link" href="#form">Заказать звонок</a>
         </div>
       </div>
-    </header>
+    </div>
+  </div>
+</header>
 <section class="request">
   <div class="container">
     <div class="request__inner">
