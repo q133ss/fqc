@@ -2431,6 +2431,10 @@ body {
   font-size: 20px;
 }
 
+.price__text{
+  align-self: center;
+}
+
 @media screen and (max-width: 768px){
   .delivery_header{
     height: 75%;

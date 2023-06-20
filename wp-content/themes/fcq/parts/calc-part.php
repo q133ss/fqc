@@ -238,6 +238,8 @@
             </div>
       </div>
 
+      <h2>Итог: <span id="totalPrice"></span> ₽</h2>
+
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
       </p>
