@@ -2435,6 +2435,13 @@ body {
   align-self: center;
 }
 
+.about-us__img_wrap{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 768px){
   .delivery_header{
     height: 75%;
@@ -2608,4 +2615,5 @@ body {
   .price__table_white_line{
     margin: 0 5px 0 5px;
   }
+
 }

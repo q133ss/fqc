@@ -2,6 +2,14 @@
 /* Template Name: Прайс */
 get_header();
 ?>
+<style>
+    .header__content{
+        width: 100%;
+    }
+    .header__menu{
+        width: 57%;
+    }
+</style>
 <div class="header-wrapper">
 
     <header class="header">

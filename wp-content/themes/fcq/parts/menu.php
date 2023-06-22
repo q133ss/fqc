@@ -1,15 +1,15 @@
 <div class="header__menu">
   <div class="header__menu-item">
-    <a class="header__menu-link" href="/">Схема работы</a>
+    <a class="header__menu-link" href="/price">Прайс</a>
   </div>
   <div class="header__menu-item">
-    <a class="header__menu-link" href="/">Прайс</a>
+    <a class="header__menu-link" href="/shipping">Доставка из китая</a>
   </div>
   <div class="header__menu-item">
-    <a class="header__menu-link" href="/">Доставка из китая</a>
+    <a class="header__menu-link" href="/about">О нас</a>
   </div>
   <div class="header__menu-item">
-    <a class="header__menu-link" href="/">О нас</a>
+    <a class="header__menu-link" href="/contacts">Контакты</a>
   </div>
 </div>
 <a href="#mobile" class="mobileMenu">

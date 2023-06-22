@@ -208,7 +208,10 @@ get_header();
 
             </div>
 
-            <div class="contacts__item">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0524b80fdcf6f80c2942be157d71c9f9f8972892e5e71ae7b20d2b662b5dea5b&amp;source=constructor" width="674" height="539" frameborder="0"></iframe>
+            <!-- <div class="contacts__item"></div> -->
+            <div></div>
+            <!-- <div class="contacts__item">
 
               <h6 class="contacts__item-title">Техническая поддержка</h6>
 
@@ -242,7 +245,7 @@ get_header();
 
               </a>
 
-            </div>
+            </div> -->
 
             <div class="contacts__item">
 

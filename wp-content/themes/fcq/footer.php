@@ -9,7 +9,7 @@
               <p class="footer__item-text">Мы делаем качественно.</p>
             </div>
             <div class="footer__item">
-              <a class="footer__item-link" href="/">fcq-fulfillment@yandex.ru</a>
+              <a class="footer__item-link" href="/" style="padding: 20px 25px;">fcq-fulfillment@yandex.ru</a>
             </div>
           </div>
           <div class="footer__bottom">

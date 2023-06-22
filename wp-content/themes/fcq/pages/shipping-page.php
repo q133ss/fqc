@@ -144,7 +144,7 @@ get_header();
 
   </section>
 
-  <section class="order question">
+  <!-- <section class="order question">
 
     <div class="container order__wrap">
 
@@ -170,9 +170,9 @@ get_header();
 
     </div>
 
-  </section>
+  </section> -->
 
-  <section class="delivery-types">
+  <!-- <section class="delivery-types">
 
     <div class="container">
 
@@ -236,7 +236,7 @@ get_header();
 
     </div>
 
-  </section>
+  </section> -->
 
   <section class="stages question">
 
@@ -314,7 +314,7 @@ get_header();
 
   </section>
 
-  <section class="delivery-types">
+  <!-- <section class="delivery-types">
 
     <div class="container">
 
@@ -358,9 +358,9 @@ get_header();
 
     </div>
 
-  </section>
+  </section> -->
 
-  <section class="accordion">
+  <!-- <section class="accordion">
     <div class="container">
       <div class="accordion__inner">
         <h2 class="accordion__title shipping_accord_title">Вопрос-ответ</h2>
@@ -448,9 +448,9 @@ get_header();
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="shipping">
+<!--   <section class="shipping">
 
     <div class="container">
 
@@ -632,7 +632,7 @@ get_header();
 
     </div>
 
-  </section>
+  </section> -->
 
 </main>
 <?php get_footer(); ?>
