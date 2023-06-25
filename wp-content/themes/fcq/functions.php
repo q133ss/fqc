@@ -98,6 +98,6 @@ function order_form_handler() {
 	$wpdb->insert($table_name, $data, $format);
 
     // Перенаправляем пользователя
-    wp_redirect( home_url() );
+    wp_redirect( home_url().'/thanks' );
     exit;
 }

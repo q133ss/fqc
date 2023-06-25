@@ -1,5 +1,5 @@
 <div id="modal" class="modal">
-    <div class="modal__box active">
+    <div class="modal__box">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">1 из 7</div>
@@ -62,11 +62,30 @@
         Количество товара к упаковке
       </div>
 
-      <div class="modal__box-answers">
-        <div class="modal__box-answer" data-question="Колличество товара к упаковке">500 шт</div>
+      <div class="modal__box-answers" style="justify-content: center;">
+        <input type="number" class="modal__box-input" placeholder="Введите колличество" id="product_qty">
+        <!-- <div class="modal__box-answer" data-question="Колличество товара к упаковке">500 шт</div>
         <div class="modal__box-answer" data-question="Колличество товара к упаковке">500-1000 шт</div>
         <div class="modal__box-answer" data-question="Колличество товара к упаковке">1000-3000 шт</div>
-        <div class="modal__box-answer" data-question="Колличество товара к упаковке">3000 и более</div>
+        <div class="modal__box-answer" data-question="Колличество товара к упаковке">3000 и более</div> -->
+      </div>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">4 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Нужна ли проверка на брак?
+      </div>
+
+      <div class="modal__box-answers" style="justify-content: center;">
+        <div class="modal__box-answer" data-question="Нужна ли проверка на брак?">Да</div>
+        <div class="modal__box-answer" data-question="Нужна ли проверка на брак?">Нет</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
       <span class="modal__box-back" style="right: 135px;">Назад</a>
@@ -120,6 +139,41 @@
         <div class="modal__box-btn">Далее</div>
       </div>
       <div class="modal__box-question">
+        Нужны ли вложения?
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer" data-question="Нужны ли вложения?">Да</div>
+        <div class="modal__box-answer" data-question="Нужны ли вложения?">Нет</div>
+      </div>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">7 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Сколько штук влазит в 1 короб 60х40х40?
+      </div>
+
+      <div class="modal__box-answers" style="justify-content: center;">
+        <input type="number" class="modal__box-input" placeholder="Введите колличество" id="in_one_box">
+      </div>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">7 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
         Как доставляем товар
       </div>
 
@@ -133,7 +187,7 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box">
+    <div class="modal__box active">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">8 из 7</div>
@@ -154,6 +208,43 @@
     <div class="modal__box">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">8 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Количество артикулов в поставке
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer" data-question="Количество артикулов в поставке">До 10</div>
+        <div class="modal__box-answer" data-question="Количество артикулов в поставке">10-20</div>
+        <div class="modal__box-answer" data-question="Количество артикулов в поставке">20 и более</div>
+      </div>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
+    </div>
+
+    <div class="modal__box">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
+        <div class="modal__box-num">8 из 7</div>
+        <div class="modal__box-btn">Далее</div>
+      </div>
+      <div class="modal__box-question">
+        Кто доставляет поставку на склад Wildberries
+      </div>
+
+      <div class="modal__box-answers">
+        <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Мы</div>
+        <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Вы</div>
+      </div>
+      <a class="modal__box-close" href="#close">Закрыть</a>
+      <span class="modal__box-back" style="right: 135px;">Назад</a>
+    </div>
+
+    <div class="modal__box left_side">
+      <div class="modal__box-top">
+        <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">9 из 7</div>
         <div class="modal__box-btn">Далее</div>
       </div>
@@ -169,7 +260,7 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box">
+    <div class="modal__box left_side">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">10 из 7</div>
@@ -187,7 +278,7 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box">
+    <div class="modal__box right_side">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">10 из 7</div>
@@ -206,7 +297,7 @@
       <span class="modal__box-back" style="right: 135px;">Назад</a>
     </div>
 
-    <div class="modal__box">
+    <div class="modal__box right_side">
       <div class="modal__box-top">
         <div class="modal__box-logo">FCQ</div>
         <div class="modal__box-num">11 из 7</div>
@@ -230,15 +321,15 @@
 
       <div class="price__table-section">
             <div class="price__table-name_section" id="totalTableName">
-              <div class="price__table_header_title question__text">Вопрос</div>
+              <div class="price__table_header_title question__text">Вопрос - ответ</div>
             </div>
             <div class="price__table_white_line"></div>
             <div class="price__table_price_section" style="width: 55%;" id="totalTableCol">
-              <div class="price__table_header_title question__text">Ответ</div>
+              <div class="price__table_header_title question__text">Цена</div>
             </div>
       </div>
 
-      <h2>Итог: <span id="totalPrice"></span> ₽</h2>
+      <h2>Итог: <span id="totalPrice"></span></h2>
 
       <p class="modal__box-text">
         Оставьте ваши контактные данные, <br> мы свяжемся с вами.
@@ -300,6 +391,6 @@
           </i>
           e-mail
         </a> </p>
-      <!-- <a class="modal__box-close" href="#close">Закрыть</a> -->
+      <a class="modal__box-close" href="#close">Закрыть</a>
     </div>
   </div>
