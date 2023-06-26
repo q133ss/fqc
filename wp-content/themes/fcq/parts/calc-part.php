@@ -180,7 +180,7 @@
       <div class="modal__box-answers">
         <div class="modal__box-answer" data-question="Как доставляем товар">В коробе 60х40х40</div>
         <div class="modal__box-answer" data-question="Как доставляем товар">В другом коробе</div>
-        <div class="modal__box-answer" data-question="Как доставляем товар">Паллета + короб 60х40х40 12шт</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">Паллета + короб 60х40х40 16шт</div>
         <div class="modal__box-answer" data-question="Как доставляем товар">Палетта + Другой короб</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
@@ -391,6 +391,6 @@
           </i>
           e-mail
         </a> </p>
-      <a class="modal__box-close" href="#close">Закрыть</a>
+      <a class="modal__box-close" style="top:5px; bottom: unset;" href="#close">Закрыть</a>
     </div>
   </div>

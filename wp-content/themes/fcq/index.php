@@ -362,7 +362,7 @@
           number.innerText = Math.floor(counter).toLocaleString('ru-RU');
         }
       }
-    }, 5);
+    }, 10);
   });
 
 </script>
