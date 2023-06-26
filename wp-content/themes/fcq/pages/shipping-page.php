@@ -58,13 +58,12 @@ get_header();
       <div class="request_btns delivery__btns">
 
         <a class="request__btn delivery__btn" href="#form">Заказать расчет</a>
-        <a class="request__btn delivery__tarif_btn" href="#modal">Тарифы</a>
 
       </div>
 
       <div class="delivery__info">
 
-        <p class="delivery__info-text">Найдём, выкупим и проверим ваш <br> товар в Китае</p>
+        <p class="delivery__info-text">Найдём, выкупим и проверим Ваш <br> товар в Китае</p>
 
         <p class="delivery__info-text">Доставим в Россию в сжатые сроки</p>
 
@@ -278,9 +277,11 @@ get_header();
 
           <div class="stages__item">
 
-            <p class="stages__item-text">Отправим товар на склад маркетплейса</p>
+            <p class="stages__item-text">Отправьте товар <br>
 
-            <p class="stages__item-num">06</p>
+              на наш склад</p>
+
+            <p class="stages__item-num">04</p>
 
           </div>
 
@@ -296,11 +297,9 @@ get_header();
 
           <div class="stages__item">
 
-            <p class="stages__item-text">Отправьте товар <br>
+            <p class="stages__item-text">Отправим товар на склад маркетплейса</p>
 
-              на наш склад</p>
-
-            <p class="stages__item-num">04</p>
+            <p class="stages__item-num">06</p>
 
           </div>
 

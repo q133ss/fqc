@@ -1777,7 +1777,7 @@ body {
   gap            : 50px
 }
 
-@media(max-width: 1399px) {
+@media(max-width: 1150px) {
   .modal__box {
     width: 100%;
   }
@@ -2358,7 +2358,7 @@ body {
 }
 
 .price__text{
-  max-width: 600px;
+/*  max-width: 600px;*/
   padding-bottom: 128px;
 }
 
@@ -2440,6 +2440,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   margin-top: 40px;
+}
+
+.about-us__img_wrap img {
+  max-height: 250px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px){
@@ -2525,12 +2530,12 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .stages__item:nth-child(2) { order: 1; }
+/*  .stages__item:nth-child(2) { order: 1; }
   .stages__item:nth-child(3) { order: 2; }
   .stages__item:nth-child(4) { order: 3; }
   .stages__item:nth-child(6) { order: 6; }
   .stages__item:nth-child(7) { order: 5; }
-  .stages__item:nth-child(8) { order: 4; }
+  .stages__item:nth-child(8) { order: 4; }*/
 
   .stages__item{
     border-radius: 30px;

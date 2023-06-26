@@ -65,15 +65,16 @@
       </button>
       <div class="request__bottom-info">
         <div class="request__info-item">
-          <p class="request__info-num">650+</p>
+          <p class="request__info-num" data-max="650">550</p>
+          <!-- Добавить + -->
           <p class="request__info-text">поставщиков</p>
         </div>
         <div class="request__info-item">
-          <p class="request__info-num">1300+</p>
+          <p class="request__info-num" data-max="1300">1200+</p>
           <p class="request__info-text">поставок</p>
         </div>
         <div class="request__info-item">
-          <p class="request__info-num">1 700 000</p>
+          <p class="request__info-num" data-max="1700000">1 600 000</p>
           <p class="request__info-text">единиц</p>
         </div>
       </div>
@@ -88,7 +89,7 @@
       <div class="question__inner">
         <div class="question__info">
           <h2 class="question__title">Упаковка, маркировка и отгрузка товара на Wildberries</h2>
-          <p class="question__text">Компания Фулфилмент - ваш помощник в ведении прибыльного бизнеса на Вайлдберриз.
+          <p class="question__text">Компания Фулфилмент - Ваш помощник в ведении прибыльного бизнеса на Вайлдберриз.
           </p>
         </div>
         <img class="question__img" src="<?php echo get_template_directory_uri(); ?>/assets/images/question-img.jpg" alt="">
@@ -98,7 +99,7 @@
   <section class="advantage">
     <div class="container">
       <div class="advantage__inner">
-        <h2 class="advantage__title">Сотрудничая с нами вы</h2>
+        <h2 class="advantage__title">Сотрудничая с нами Вы</h2>
         <div class="advantage__content">
           <div class="advantage__item">
             <img class="advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/advantage-img.png" alt="">
@@ -109,8 +110,8 @@
           <div class="advantage__item">
             <img class="advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/advantage-img.png" alt="">
             <h3 class="advantage__item-title">Экономите время.</h3>
-            <p class="advantage__text">Делегируя рутинные задачи, вы растете сами и растет
-              ваш бизнес</p>
+            <p class="advantage__text">Делегируя рутинные задачи, Вы растете сами и растет
+              Ваш бизнес</p>
           </div>
           <div class="advantage__item">
             <img class="advantage__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/advantage-img.png" alt="">
@@ -214,7 +215,7 @@
         </div>
         <div class="accordion__item">
           <div class="accordion__item-info">
-            <p class="accordion__item-name">Как вы упаковываете товары перед отправкой?</p>
+            <p class="accordion__item-name">Как Вы упаковываете товары перед отправкой?</p>
             <p class="accordion__item-text">Товар упаковывается по заранее установленному тех-заданию,
               соответствующему всем требованиям Маркетплейса.
               Если потребуется другая упаковка, мы можем упаковывать товар в предоставленный вами упаковочный
@@ -252,7 +253,7 @@
     <div class="container">
       <div class="service__inner">
         <h3 class="service__title">Прайс</h3>
-        <p class="service__descr">С нами ваш товар в надежных руках!</p>
+        <p class="service__descr">С нами Ваш товар в надежных руках!</p>
         <p class="service__text">
           Стоимость наших услуг рассчитывается индивидуально и зависит от множества факторов: объема партии, срока
           обработки, типа маркировки и упаковки… <br>
@@ -272,7 +273,7 @@
     <div class="container">
       <div class="contacts__item">
         <h6 class="contacts__item-title">Служба клиентского сервиса</h6>
-        <p class="contacts__item-subtitle">Проконсультируем и ответим на любые вопросы по работе платформы</p>
+        <p class="contacts__item-subtitle">Проконсультируем и ответим на любые вопросы по работе платформы Фулфилмент</p>
         <div class="contacts__item-info">
           <a class="contacts__item-text" href="tel:79998888558">
             Позвонить
@@ -342,4 +343,27 @@
     </div>
   </div>
 </main>
+<script>
+  let numbers = document.querySelectorAll('.request__info-num');
+
+  numbers.forEach(function(number, index) {
+    let maxNumber = parseInt(number.getAttribute('data-max'));
+    let incrementNumber = maxNumber / 100;
+    let counter = 0;
+    let interval = setInterval(function() {
+      if (counter >= maxNumber) {
+        clearInterval(interval);
+      } else {
+        counter += incrementNumber;
+        // Добавить символ "+" для первых двух элементов
+        if (index < 2) {
+          number.innerText = Math.floor(counter).toLocaleString('ru-RU') + "+";
+        } else {
+          number.innerText = Math.floor(counter).toLocaleString('ru-RU');
+        }
+      }
+    }, 5);
+  });
+
+</script>
 <?php get_footer(); ?>

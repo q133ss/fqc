@@ -3,7 +3,7 @@
         <div class="footer__inner">
           <div class="footer__content">
             <div class="footer__item">
-              <a class="footer__item-link" href="/">Начните с нами</a>
+              <a class="footer__item-link" href="#form">Начните с нами</a>
             </div>
             <div class="footer__item">
               <p class="footer__item-text">Мы делаем качественно.</p>

@@ -53,7 +53,7 @@ get_header();
         <h1 class="about-us__title contacts__title">Заявка успешно отправлена!</h1>
 
         <p class="about-us__text question__text">
-          Мы свяжемся с вами в ближайшее время <br>
+          Мы свяжемся с Вами в ближайшее время <br>
           <a href="/" style="color: #FFFFFF; border-bottom: 1px solid #FFFFFF;">На главную</a>
         </p>
 

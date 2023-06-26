@@ -74,7 +74,7 @@ get_header();
 
               <h6 class="contacts__item-title">Служба клиентского сервиса</h6>
 
-              <p class="contacts__item-subtitle">Проконсультируем и ответим на любые вопросы по работе платформы</p>
+              <p class="contacts__item-subtitle">Проконсультируем и ответим на любые вопросы по работе платформы Фулфилмент</p>
 
               <div class="contacts__item-info">
 
@@ -86,7 +86,7 @@ get_header();
 
                 <p class="contacts__item-link">
 
-                  +7 (999) 888 8558
+                  Егор +7 (999) 888 8558
 
                 </p>
 
@@ -104,7 +104,7 @@ get_header();
 
                   <p class="contacts__item-link" href="mailto:fcq-fulfillment@yandex.ru">
 
-                    Почта&nbsp; info@togotop.ru
+                    Почта&nbsp; fcq-fulfillment@yandex.ru
 
                   </p>
 
@@ -208,7 +208,7 @@ get_header();
 
             </div>
 
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0524b80fdcf6f80c2942be157d71c9f9f8972892e5e71ae7b20d2b662b5dea5b&amp;source=constructor" width="674" height="539" frameborder="0"></iframe>
+            <iframe style="border-radius: 50px;" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0524b80fdcf6f80c2942be157d71c9f9f8972892e5e71ae7b20d2b662b5dea5b&amp;source=constructor" width="674" height="539" frameborder="0"></iframe>
             <!-- <div class="contacts__item"></div> -->
             <div></div>
             <!-- <div class="contacts__item">
@@ -277,7 +277,7 @@ get_header();
 
                   <h6 class="contacts__item-title">Услуги под ключ</h6>
 
-                  <p class="contacts__item-subtitle">Поможем организовать процесс под ваш бизнес 
+                  <p class="contacts__item-subtitle">Поможем организовать процесс под Ваш бизнес 
 и продвижение на Wildberries</p>
 
                 </div>

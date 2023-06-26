@@ -9,6 +9,9 @@ get_header();
     .header__menu{
         width: 57%;
     }
+    .price__table-header_title , .price__table_header_title{
+      color: #fff;
+    }
 </style>
 <div class="header-wrapper">
 
@@ -183,52 +186,8 @@ get_header();
       <!-- 1 -->
 
 
-      <div class="price__table-wrap question">
+      <div class="price__table-wrap question" style="background: linear-gradient(90deg, #B02EA2 0%, #571C76 100%);">
         <div class="container">
-          <h2 class="work__title tarif_title">Тарифы</h3>
-          <div class="price__table-section">
-            <div class="price__table-name_section">
-              <div class="price__table-header_title question__text">
-                КАРГО-ДОСТАВКА
-              </div>
-              <div class="price__table-item_name question__text">
-                Самолет
-              </div>
-              <div class="price__table-item_name question__text">
-                Быстрое авто
-              </div>
-              <div class="price__table-item_name question__text">
-                Обычное авто
-              </div>
-              <div class="price__table-item_name question__text">
-                Ж/д доставка
-              </div>
-            </div>
-            <div class="price__table_white_line"></div>
-            <div class="price__table_price_section">
-              <div class="price__table_header_title question__text">Стоимость</div>
-              <div class="price__table-item_name question__text">
-                от 10$
-              </div>
-              <div class="price__table-item_name question__text">
-                от 3.5$
-              </div>
-              <div class="price__table-item_name question__text">
-                от 3$
-              </div>
-              <div class="price__table-item_name question__text">
-                от 1.5$
-              </div>
-            </div>
-          </div>
-
-          <h3 class="white_shipping_title">Белая доставка</h3>
-          <p class="white_shipping_text">
-            Расчет производится по упаковочному листу
-            Все условия доставки обговариваются индивидуально
-            Цена зависит от метода доставки, таможенных пошлин и документов на товар
-          </p>
-
           <h2 class="work__title tarif_title">Складские услуги</h3>
 
             <div class="price__table-section">
@@ -516,6 +475,33 @@ get_header();
               </div>
             </div>
           </div>
+
+          <h2 class="work__title tarif_title">Тарифы</h3>
+          <div class="price__table-section">
+            <div class="price__table-name_section">
+              <div class="price__table-header_title question__text">
+                КАРГО-ДОСТАВКА
+              </div>
+              <div class="price__table-item_name question__text">
+                Обычное авто
+              </div>
+            </div>
+            <div class="price__table_white_line"></div>
+            <div class="price__table_price_section">
+              <div class="price__table_header_title question__text">Стоимость</div>
+              <div class="price__table-item_name question__text">
+                от 3$
+              </div>
+            </div>
+          </div>
+
+          <!-- <h3 class="white_shipping_title">Белая доставка</h3>
+          <p class="white_shipping_text">
+            Расчет производится по упаковочному листу
+            Все условия доставки обговариваются индивидуально
+            Цена зависит от метода доставки, таможенных пошлин и документов на товар
+          </p> -->
+
         </div>
       </div>
 
