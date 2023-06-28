@@ -18,16 +18,16 @@
             </div>
             <div class="footer__menu">
               <div class="footer__menu-item">
-                <a class="footer__menu-link" href="/">Схема работы</a>
+                <a class="footer__menu-link" href="/price">Прайс</a>
               </div>
               <div class="footer__menu-item">
-                <a class="footer__menu-link" href="shipping.html">Прайс</a>
+                <a class="footer__menu-link" href="/shipping">Доставка из китая</a>
               </div>
               <div class="footer__menu-item">
-                <a class="footer__menu-link" href="price.html">Доставка из китая</a>
+                <a class="footer__menu-link" href="/about">О нас</a>
               </div>
               <div class="footer__menu-item">
-                <a class="footer__menu-link" href="how-work.html">О нас</a>
+                <a class="footer__menu-link" href="/contacts">Контакты</a>
               </div>
             </div>
             <div class="footer__social">

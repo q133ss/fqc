@@ -3,13 +3,6 @@
 get_header();
 ?>
 <style>
-    .header__content{
-        width: 100%;
-    }
-    .header__menu{
-        width: 57%;
-    }
-    
     .about-us__text{
         max-width: unset!important;
     }
@@ -17,46 +10,27 @@ get_header();
 <div class="header-wrapper about__header-wrap">
 
     <header class="header">
-
-      <div class="container">
-
-        <div class="header__inner">
-
-          <div class="header__content">
-
-            <div class="header__logo">
-
-              <a class="header__logo-link" href="/">
-
-                FCQ
-
-              </a>
-
-            </div>
-
-            <?php get_template_part('parts/menu'); ?>
-
-          <div class="header__btns">
-
-            <div class="header__btn">
-
-              <a class="header__btn-link" href="">Калькулятор</a>
-
-            </div>
-
-            <div class="header__btn">
-
-              <a class="header__btn-link" href="#modal">Заказать звонок</a>
-
-            </div>
-
-          </div>
-
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__content">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/">
+            FCQ
+          </a>
         </div>
-
       </div>
-
-    </header>
+      <?php get_template_part('parts/menu'); ?>
+      <div class="header__btns">
+        <div class="header__btn">
+          <a class="header__btn-link" href="">Калькулятор</a>
+        </div>
+        <div class="header__btn">
+          <a class="header__btn-link" href="#form">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
     <section class="request about__section">
 

@@ -5,48 +5,27 @@ get_header();
 <div class="header-wrapper">
 
     <header class="header">
-
-      <div class="container">
-
-        <div class="header__inner">
-
-          <div class="header__content">
-
-            <div class="header__logo">
-
-              <a class="header__logo-link" href="/">
-
-                FCQ
-
-              </a>
-
-            </div>
-
-            <?php get_template_part('parts/menu'); ?>
-
-          </div>
-
-          <div class="header__btns">
-
-            <div class="header__btn">
-
-              <a class="header__btn-link" href="">Калькулятор</a>
-
-            </div>
-
-            <div class="header__btn">
-
-              <a class="header__btn-link" href="#modal">Заказать звонок</a>
-
-            </div>
-
-          </div>
-
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__content">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/">
+            FCQ
+          </a>
         </div>
-
       </div>
-
-    </header>
+      <?php get_template_part('parts/menu'); ?>
+      <div class="header__btns">
+        <div class="header__btn">
+          <a class="header__btn-link" href="">Калькулятор</a>
+        </div>
+        <div class="header__btn">
+          <a class="header__btn-link" href="#form">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
     <section class="request">
 
@@ -69,6 +48,8 @@ get_header();
         <div class="container-fluid">
 
           <div class="contacts__items">
+
+            <iframe style="border-radius: 50px;" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0524b80fdcf6f80c2942be157d71c9f9f8972892e5e71ae7b20d2b662b5dea5b&amp;source=constructor" width="674" height="539" frameborder="0"></iframe>
 
             <div class="contacts__item">
 
@@ -207,8 +188,6 @@ get_header();
               </div>
 
             </div>
-
-            <iframe style="border-radius: 50px;" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0524b80fdcf6f80c2942be157d71c9f9f8972892e5e71ae7b20d2b662b5dea5b&amp;source=constructor" width="674" height="539" frameborder="0"></iframe>
             <!-- <div class="contacts__item"></div> -->
             <div></div>
             <!-- <div class="contacts__item">

@@ -9,8 +9,8 @@
             FCQ
           </a>
         </div>
-        <?php get_template_part('parts/menu'); ?>
       </div>
+      <?php get_template_part('parts/menu'); ?>
       <div class="header__btns">
         <div class="header__btn">
           <a class="header__btn-link" href="">Калькулятор</a>
@@ -65,16 +65,16 @@
       </button>
       <div class="request__bottom-info">
         <div class="request__info-item">
-          <p class="request__info-num" data-max="650">550</p>
+          <p class="request__info-num" data-max="650">600</p>
           <!-- Добавить + -->
           <p class="request__info-text">поставщиков</p>
         </div>
         <div class="request__info-item">
-          <p class="request__info-num" data-max="1300">1200+</p>
+          <p class="request__info-num" data-max="1300">1260+</p>
           <p class="request__info-text">поставок</p>
         </div>
         <div class="request__info-item">
-          <p class="request__info-num" data-max="1700000">1 600 000</p>
+          <p class="request__info-num" data-max="1700000">1 600 900</p>
           <p class="request__info-text">единиц</p>
         </div>
       </div>
@@ -249,7 +249,7 @@
       </div>
     </div>
   </section>
-  <section class="service">
+  <section class="service work">
     <div class="container">
       <div class="service__inner">
         <h3 class="service__title">Прайс</h3>

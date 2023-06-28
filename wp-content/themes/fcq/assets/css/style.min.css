@@ -169,6 +169,8 @@ body {
 
   .mobileMenu{
     display: block;
+    position: relative;
+    right: 92%;
   }
 
   .header__btns{
@@ -1875,7 +1877,10 @@ body {
   padding      : 13px 38px;
   border       : 2px solid #fff;
   border-radius: 50px;
-  cursor       : pointer
+  cursor       : pointer;
+  position     : relative;
+  top          : 391px;
+  left         : 65px;
 }
 
 .modal__box-question {
@@ -2003,7 +2008,7 @@ body {
   border-radius   : 25px;
   cursor          : pointer;
   position        : absolute;
-  bottom          : 20px;
+/*  bottom          : 20px;*/
   right           : 20px
 }
 
@@ -2621,4 +2626,21 @@ body {
     margin: 0 5px 0 5px;
   }
 
+}
+
+.header__btn-link:hover{
+  background: linear-gradient(90deg, #B02EA2 0%, #571C76 100%);
+  border: 2px solid #000000;
+}
+
+.request__btn:first-child:hover{
+  background: #161616;
+}
+
+.request__btn:last-child:hover{
+  background: linear-gradient(90deg, #B02EA2 0%, #571C76 100%);
+}
+
+.price__link{
+  color: #05ffff;
 }

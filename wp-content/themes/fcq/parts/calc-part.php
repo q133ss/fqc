@@ -30,7 +30,7 @@
         <div class="modal__box-answer" data-question="Кто доставляет груз на Наш склад">Мы своими силами</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -49,7 +49,7 @@
         <div class="modal__box-answer" data-question="Откуда забираем">Иное место в пределах МКАД</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -70,7 +70,7 @@
         <div class="modal__box-answer" data-question="Колличество товара к упаковке">3000 и более</div> -->
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -88,7 +88,7 @@
         <div class="modal__box-answer" data-question="Нужна ли проверка на брак?">Нет</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -101,7 +101,7 @@
         Выберите материалы для упаковки
       </div>
 
-      <div class="modal__box-answers">
+      <div class="modal__box-answers" style="display: grid;grid-template-columns: repeat(3, 1fr);gap: 10px;">
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">БОПП пакет</div>
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Пузырчатая плёнка</div>
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Крафтовая бумага</div>
@@ -110,7 +110,7 @@
         <div class="modal__box-answer" data-question="Выберите материалы для упаковки">Другое</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -129,7 +129,7 @@
         <div class="modal__box-answer" data-question="Колличество этикеток при маркировке">3 этикетки</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -147,7 +147,7 @@
         <div class="modal__box-answer" data-question="Нужны ли вложения?">Нет</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -157,14 +157,14 @@
         <div class="modal__box-btn">Далее</div>
       </div>
       <div class="modal__box-question">
-        Сколько штук влазит в 1 короб 60х40х40?
+        Сколько единиц товара помещается в 1 короб 60х40х40
       </div>
 
       <div class="modal__box-answers" style="justify-content: center;">
         <input type="number" class="modal__box-input" placeholder="Введите колличество" id="in_one_box">
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -181,10 +181,10 @@
         <div class="modal__box-answer" data-question="Как доставляем товар">В коробе 60х40х40</div>
         <div class="modal__box-answer" data-question="Как доставляем товар">В другом коробе</div>
         <div class="modal__box-answer" data-question="Как доставляем товар">Паллета + короб 60х40х40 16шт</div>
-        <div class="modal__box-answer" data-question="Как доставляем товар">Палетта + Другой короб</div>
+        <div class="modal__box-answer" data-question="Как доставляем товар">Паллетта + Другой короб</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -202,7 +202,7 @@
         <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Мы</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -221,7 +221,7 @@
         <div class="modal__box-answer" data-question="Количество артикулов в поставке">20 и более</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box">
@@ -239,7 +239,7 @@
         <div class="modal__box-answer" data-question="Кто создает поставку в Вашем ЛК">Вы</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box left_side">
@@ -257,7 +257,7 @@
         <div class="modal__box-answer" data-question="Требуется погрузка">Нет</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box left_side">
@@ -275,7 +275,7 @@
         <div class="modal__box-answer" data-question="Что грузим">Короб</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box right_side">
@@ -294,7 +294,7 @@
         <div class="modal__box-answer" data-question="Что поставляем">Короба менее 60х40х40</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box right_side">
@@ -313,7 +313,7 @@
         <div class="modal__box-answer" data-question="Куда доставляем">СЦ Пушкино</div>
       </div>
       <a class="modal__box-close" href="#close">Закрыть</a>
-      <span class="modal__box-back" style="right: 135px;">Назад</a>
+      <span class="modal__box-back" style="right: 160px;">Назад</a>
     </div>
 
     <div class="modal__box" style="height: 100%;margin-top: 0;overflow-y: scroll;">
